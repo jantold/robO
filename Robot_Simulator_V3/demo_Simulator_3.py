@@ -30,6 +30,6 @@ while True:
     else:
         myRobot.move(motion)
 
-
+    print("myWorld.getTrueRobotPose: ", myWorld.getTrueRobotPose())
 # Simulation schliessen:
 myWorld.close(False)

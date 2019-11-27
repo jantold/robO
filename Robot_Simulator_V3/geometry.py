@@ -1,3 +1,4 @@
+# coding=utf-8
 # Funktionen zur Berechnung von geometrischen Aufgabenstellungen in 2D wie
 # Abstand Punkt-Punkt, Punkt-Gerade, Punkt-Segment und
 # Schnittpunkte von Geraden, Segmenten und Strahlen.
