@@ -56,7 +56,8 @@ def followLine(self, p1, p2, v, tol = 0.1):
     myWorld.drawPolyline(polyline)
     myKeyboardController = myWorld.getKeyboardController()
 
-    while True:
+    running = True
+    while running:
         (motion, boxCmd, exit) = myKeyboardController.getCmd()
 
         (x, y, theta2) = myWorld.getTrueRobotPose()
@@ -64,16 +65,15 @@ def followLine(self, p1, p2, v, tol = 0.1):
         deltaX = p2[0] - x
         deltaY = p2[1] - y
         theta = np.arctan2(deltaY, deltaX) - theta2
-        print(theta)
+        print("theta: ", theta)
         w = (theta + pi) % (2*pi) - pi
         if w >= np.radians(1) or w <= np.radians(-1):
-            littleV = v / 4
-            self.move([littleV, w])
+            self.move([v / 4, w])
         else:
-            self.move(v, w)
+            self.move([v, w])
         (x, y) = myWorld.getTrueRobotPose()[0:2]
         if x <= p2[0] + tol and x >= p2[0] - tol and y <= p2[1] + tol and y >= p2[1] - tol:
-            break
+            running = False
 
         if exit:
             break
@@ -81,7 +81,7 @@ def followLine(self, p1, p2, v, tol = 0.1):
 # Simulation schliessen:
 if __name__== "__main__":
     p1 = [1, 2]
-    p2 = [10.5, 6]
+    p2 = [5, 10]
     followLine(myRobot, 2, p2, 0.5)
     #curveDrive(myRobot, 0.5, 100, 45)
     #straightDrive(0.2, 200)
