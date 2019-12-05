@@ -54,11 +54,9 @@ def curveDrive(self, v, r, theta):
 
 
 def followLine(self, p1, p2, v, tol = 0.01):
-    myKeyboardController = myWorld.getKeyboardController()
 
     running = True
     while running:
-        (motion, boxCmd, exit) = myKeyboardController.getCmd()
 
         (x, y, theta2) = myWorld.getTrueRobotPose()
         print(x, y, theta2)
@@ -75,44 +73,33 @@ def followLine(self, p1, p2, v, tol = 0.01):
         if x <= p2[0] + tol and x >= p2[0] - tol and y <= p2[1] + tol and y >= p2[1] - tol:
             running = False
 
-        if exit:
-            break
-
 def followLine1(self, p1, p2):
-    running = True
-    tol = 0.1
-    while running:
+    tol = 0.5
+    while True:
         polyline = [p1, p2]
         myWorld.drawPolyline(polyline)
-        p1_x, p1_y = p1
         p2_x, p2_y = p2
         pos = self._world.getTrueRobotPose()
         pos_x = pos[0]
         pos_y = pos[1]
 
-        nearest_point = geo.neareastPointOnLine((pos_x, pos_y), (p1, p2))
-        rp1p2x = p2_x - p1_x
-        rp1p2y = p2_y - p1_y
+        nearest_point = geo.neareastPointOnLine((pos[0], pos[1]), (p1, p2))
+        roboP2x = p2_x - nearest_point[0]
+        roboP2y = p2_y - nearest_point[1]
 
-        roboP2x = p2_x - pos_x
-        roboP2y = p2_y - pos_y
+        deltaX = nearest_point[0] + roboP2x*0.5
 
-        deltaX = pos_x + (roboP2x)
-
-        deltaY = pos_y + (roboP2y)
+        deltaY = nearest_point[1] + roboP2y*0.5
 
         followLine(self, p1, [deltaX, deltaY], 0.5)
 
         if pos_x <= p2[0] + tol and pos_x >= p2[0] - tol and pos_y <= p2[1] + tol and pos_y >= p2[1] - tol:
-            running = False
-
-        if exit:
             break
 
 # Simulation schliessen:
 if __name__== "__main__":
-    p1 = [1, 5]
-    p2 = [5, 15]
+    p1 = [4, 3]
+    p2 = [15, 7]
     followLine1(myRobot, p1, p2)
     #curveDrive(myRobot, 0.5, 100, 45)
     #straightDrive(0.2, 200)
