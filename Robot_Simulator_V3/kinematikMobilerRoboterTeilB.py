@@ -53,28 +53,29 @@ def curveDrive(self, v, r, theta):
         self.move(motionCircle[t])
 
 
-def followLine(self, p1, p2, v, tol = 0.01):
+def goToGlobal(self, p1, p2, v, tol = 0.01):
 
     running = True
-    while running:
+    #while running:
 
-        (x, y, theta2) = myWorld.getTrueRobotPose()
-        print(x, y, theta2)
-        deltaX = p2[0] - x
-        deltaY = p2[1] - y
-        theta = np.arctan2(deltaY, deltaX) - theta2
-        print("theta: ", theta)
-        w = (theta + pi) % (2*pi) - pi
-        if w >= np.radians(1) or w <= np.radians(-1):
-            self.move([v / 4, w])
-        else:
-            self.move([v, w])
-        (x, y) = myWorld.getTrueRobotPose()[0:2]
-        if x <= p2[0] + tol and x >= p2[0] - tol and y <= p2[1] + tol and y >= p2[1] - tol:
-            running = False
+    (x, y, theta2) = myWorld.getTrueRobotPose()
+    print(x, y, theta2)
+    deltaX = p2[0] - x
+    deltaY = p2[1] - y
+    theta = np.arctan2(deltaY, deltaX) - theta2
+    print("theta: ", theta)
+    w = (theta + pi) % (2*pi) - pi
+    print("w = ", w)
+    if w >= np.radians(1) or w <= np.radians(-1):
+        self.move([v / 4, w])
+    else:
+        self.move([v, w])
+    (x, y) = myWorld.getTrueRobotPose()[0:2]
+    #if x <= p2[0] + tol and x >= p2[0] - tol and y <= p2[1] + tol and y >= p2[1] - tol:
+     #   running = False
 
 def followLine1(self, p1, p2):
-    tol = 0.5
+    tol = 0.1
     while True:
         polyline = [p1, p2]
         myWorld.drawPolyline(polyline)
@@ -91,15 +92,15 @@ def followLine1(self, p1, p2):
 
         deltaY = nearest_point[1] + roboP2y*0.5
 
-        followLine(self, p1, [deltaX, deltaY], 0.5)
+        goToGlobal(self, p1, [deltaX, deltaY], 0.2)
 
         if pos_x <= p2[0] + tol and pos_x >= p2[0] - tol and pos_y <= p2[1] + tol and pos_y >= p2[1] - tol:
             break
 
 # Simulation schliessen:
 if __name__== "__main__":
-    p1 = [4, 3]
-    p2 = [15, 7]
+    p1 = [10, 12]
+    p2 = [1, 15]
     followLine1(myRobot, p1, p2)
     #curveDrive(myRobot, 0.5, 100, 45)
     #straightDrive(0.2, 200)
