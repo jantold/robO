@@ -77,8 +77,6 @@ def goToGlobal(self, p1, p2, v, tol = 0.01):
 def followLine1(self, p1, p2):
     tol = 0.1
     while True:
-        polyline = [p1, p2]
-        myWorld.drawPolyline(polyline)
         p2_x, p2_y = p2
         pos = self._world.getTrueRobotPose()
         pos_x = pos[0]
@@ -99,9 +97,15 @@ def followLine1(self, p1, p2):
 
 # Simulation schliessen:
 if __name__== "__main__":
-    p1 = [10, 12]
-    p2 = [1, 15]
+    p1 = [1, 3]
+    p2 = [12, 3]
+    p3 = [12, 3]
+    p4 = [12, 12]
+    polyline = [p1, p2, p3, p4]
+    myWorld.drawPolyline(polyline)
     followLine1(myRobot, p1, p2)
+    followLine1(myRobot, p3, p4)
+
     #curveDrive(myRobot, 0.5, 100, 45)
     #straightDrive(0.2, 200)
     myWorld.close()

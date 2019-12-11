@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fad0f83-4d98-4f14-942f-9d6ae43a9912" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mobileRobotik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mobileRobotik.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Robot_Simulator_V3/kinematikMobilerRoboterTeilB.py" beforeDir="false" afterPath="$PROJECT_DIR$/Robot_Simulator_V3/kinematikMobilerRoboterTeilB.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +40,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.kinematikMobilerRoboterTeilB">
+  <component name="RunManager" selected="Python.demo_Simulator_8">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="mobileRobotik" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,42 +65,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo_Simulator_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo_Simulator_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mobileRobotik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Robot_Simulator_V3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo_Simulator_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="mobileRobotik" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Robot_Simulator_V3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,42 +84,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo_Simulator_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo_Simulator_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mobileRobotik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Robot_Simulator_V3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_6.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo_Simulator_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="demo_Simulator_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mobileRobotik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Robot_Simulator_V3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_Simulator_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mobileRobotik" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Robot_Simulator_V3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,10 +162,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.demo_Simulator_8" />
         <item itemvalue="Python.kinematikMobilerRoboterTeilB" />
-        <item itemvalue="Python.demo_Simulator_1" />
-        <item itemvalue="Python.demo_Simulator_3" />
-        <item itemvalue="Python.demo_Simulator_2" />
+        <item itemvalue="Python.demo_Simulator_7" />
+        <item itemvalue="Python.demo_Simulator_6" />
         <item itemvalue="Python.demo_Simulator_5" />
       </list>
     </recent_temporary>
@@ -243,9 +230,45 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="482" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575550785080">
+    <state width="915" height="340" key="GridCell.Tab.0.bottom" timestamp="1576078932079">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="188" width="1022" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575550785080" />
+    <state width="915" height="340" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576078932079" />
+    <state width="915" height="340" key="GridCell.Tab.0.center" timestamp="1576078932078">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="915" height="340" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576078932078" />
+    <state width="915" height="340" key="GridCell.Tab.0.left" timestamp="1576078932078">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="915" height="340" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576078932078" />
+    <state width="915" height="340" key="GridCell.Tab.0.right" timestamp="1576078932079">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="915" height="340" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576078932079" />
+    <state width="915" height="340" key="GridCell.Tab.1.bottom" timestamp="1576078932080">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="915" height="340" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576078932080" />
+    <state width="915" height="340" key="GridCell.Tab.1.center" timestamp="1576078932079">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="915" height="340" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576078932079" />
+    <state width="915" height="340" key="GridCell.Tab.1.left" timestamp="1576078932079">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="915" height="340" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576078932079" />
+    <state width="915" height="340" key="GridCell.Tab.1.right" timestamp="1576078932080">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="915" height="340" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576078932080" />
+    <state x="482" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575560235153">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="188" width="1022" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575560235153" />
+    <state x="649" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1576067836481">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="381" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576067836481" />
   </component>
 </project>
