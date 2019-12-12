@@ -30,25 +30,33 @@ def wander(self):
                 self.move([v/4, 0.5])
         elif(min(dists) < 0.3):
             #w = (45 + pi) % (2 * pi) - pi
-            self.move([v/10, 1])
+            self.move([v/20, 1])
+        elif(min(dists) > 1.4):
+            self.move([v/20, 1])
         else:
             print("\ndists: ", min(dists))
             w = (0 + pi) % (2*pi) - pi
             self.move([v, w])
 
-def followWall(self):
+def followWall(self, v, d):
+    angle = self._viewAngle / self._numberOfBeams
+    numberOfBeams = self._numberOfBeams
+    w = 0
     while True:
-        v = 0.5
-        dists = [i for i in self.sense() if i is not None]
-        if(min(dists) < 0.3 and min(dists) >= 2):
-            w = (45 + pi) % (2 * pi) - pi
-            self.move([v/20, w])
-        else:
-            print("\ndists: ", min(dists))
-            w = (0 + pi) % (2*pi) - pi
-            self.move([v, w])
-
-
+        sensor = self.sense()
+        min = 420
+        for i in range(0, int(numberOfBeams/2)):
+            if(sensor[i] != None):
+                if(min > sensor[i]):
+                    min = sensor[i]
+                    pos = i
+        oldw = w
+        w = pos * angle - 135 + 90
+        if(min <= d):
+            w = w + 5
+        if(min > 1.5):
+            w = oldw
+        self.move([v, radians(w)*10*v])
 
 
 
@@ -73,8 +81,8 @@ def control():
     myWorld.close(False)
 
 if __name__== "__main__":
-    wander(myRobot)
+    #wander(myRobot)
     #control()
-    #followWall(myRobot)
+    followWall(myRobot, 0.5, 1)
 
     myWorld.close()
