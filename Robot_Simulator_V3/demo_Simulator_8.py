@@ -46,7 +46,7 @@ def followWall(self, v, d):
         sensor = self.sense()
         min = 420
         for i in range(0, int(numberOfBeams/2)):
-            if(sensor[i] != None):
+            if (sensor[i] != None):
                 if(min > sensor[i]):
                     min = sensor[i]
                     pos = i
@@ -81,8 +81,8 @@ def control():
     myWorld.close(False)
 
 if __name__== "__main__":
-    #wander(myRobot)
+    wander(myRobot)
     #control()
-    followWall(myRobot, 0.5, 1)
+    #followWall(myRobot, 0.5, 1)
 
     myWorld.close()

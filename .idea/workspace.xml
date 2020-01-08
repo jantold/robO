@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9fad0f83-4d98-4f14-942f-9d6ae43a9912" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Robot_Simulator_V3/demo_Simulator_8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Python.demo_Simulator_8">
+  <component name="RunManager" selected="Python.demo_Simulator_7">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="mobileRobotik" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,9 +69,6 @@
       <module name="mobileRobotik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Robot_Simulator_V3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -90,9 +88,6 @@
       <module name="mobileRobotik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Robot_Simulator_V3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -112,9 +107,6 @@
       <module name="mobileRobotik" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Robot_Simulator_V3" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -173,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.demo_Simulator_8" />
-        <item itemvalue="Python.kinematikMobilerRoboterTeilB" />
         <item itemvalue="Python.demo_Simulator_7" />
+        <item itemvalue="Python.demo_Simulator_8" />
         <item itemvalue="Python.demo_Simulator_6" />
         <item itemvalue="Python.demo_Simulator_5" />
+        <item itemvalue="Python.kinematikMobilerRoboterTeilB" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +210,7 @@
       <workItem from="1575480190722" duration="11293000" />
       <workItem from="1575494404093" duration="2590000" />
       <workItem from="1575502306167" duration="1738000" />
+      <workItem from="1578483164318" duration="12562000" />
     </task>
     <servers />
   </component>
@@ -241,45 +234,52 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="915" height="340" key="GridCell.Tab.0.bottom" timestamp="1576108078195">
+    <state x="588" y="215" width="800" height="684" key="#Vim_Emulation" timestamp="1578486378404">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="340" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576108078195" />
-    <state width="915" height="340" key="GridCell.Tab.0.center" timestamp="1576108078195">
+    <state x="588" y="215" width="800" height="684" key="#Vim_Emulation/67.27.1853.1053@67.27.1853.1053" timestamp="1578486378404" />
+    <state width="903" height="340" key="GridCell.Tab.0.bottom" timestamp="1578489407862">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="340" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576108078195" />
-    <state width="915" height="340" key="GridCell.Tab.0.left" timestamp="1576108078194">
+    <state width="903" height="340" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578489407862" />
+    <state width="903" height="340" key="GridCell.Tab.0.center" timestamp="1578489407861">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="340" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576108078194" />
-    <state width="915" height="340" key="GridCell.Tab.0.right" timestamp="1576108078195">
+    <state width="903" height="340" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578489407861" />
+    <state width="903" height="340" key="GridCell.Tab.0.left" timestamp="1578489407861">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="340" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576108078195" />
-    <state width="915" height="340" key="GridCell.Tab.1.bottom" timestamp="1576108078196">
+    <state width="903" height="340" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578489407861" />
+    <state width="903" height="340" key="GridCell.Tab.0.right" timestamp="1578489407862">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="340" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576108078196" />
-    <state width="915" height="340" key="GridCell.Tab.1.center" timestamp="1576108078195">
+    <state width="903" height="340" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578489407862" />
+    <state width="903" height="340" key="GridCell.Tab.1.bottom" timestamp="1578489407863">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="340" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576108078195" />
-    <state width="915" height="340" key="GridCell.Tab.1.left" timestamp="1576108078195">
+    <state width="903" height="340" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578489407863" />
+    <state width="903" height="340" key="GridCell.Tab.1.center" timestamp="1578489407862">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="340" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576108078195" />
-    <state width="915" height="340" key="GridCell.Tab.1.right" timestamp="1576108078196">
+    <state width="903" height="340" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578489407862" />
+    <state width="903" height="340" key="GridCell.Tab.1.left" timestamp="1578489407862">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="915" height="340" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576108078196" />
+    <state width="903" height="340" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578489407862" />
+    <state width="903" height="340" key="GridCell.Tab.1.right" timestamp="1578489407862">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="903" height="340" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578489407862" />
     <state x="482" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1575560235153">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="482" y="188" width="1022" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1575560235153" />
-    <state x="649" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1576155483771">
+    <state x="649" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1578483164360">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="649" y="381" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576155483771" />
+    <state x="649" y="381" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578483164360" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/robOwO$demo_Simulator_7.coverage" NAME="demo_Simulator_7 Coverage Results" MODIFIED="1578489400966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Robot_Simulator_V3" />
   </component>
 </project>
